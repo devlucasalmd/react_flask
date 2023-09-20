@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+react_flask/node_modules
+react_flask/.pnp
+react_flask/.pnp.js
+
+# testing
+react_flask/coverage
+
+# production
+react_flask/build
+
+# misc
+react_flask/.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
